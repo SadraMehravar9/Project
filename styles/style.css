@@ -1,0 +1,45 @@
+nav .btn{
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 100%;
+}
+
+/* -------------------------- Mobile Media Queries -------------------------- */
+@media (max-width: 768px) {
+    .banner .card-img {
+        height: 500px !important;
+    }
+    .banner .card-title,
+    .banner .card-text,
+    .banner .btn {
+        margin-left: 20px !important;
+    }
+    .banner .card-img-overlay{
+        background-color: rgba(0, 0, 0, 0.523);
+        border-radius: 10%;
+        color: white;
+    }
+    .footer{
+        height:min-content !important;
+    }
+}
+/* -------------------------- Tablet Media Queries -------------------------- */
+@media (min-width:762px) and (max-width: 1024px) {
+    .banner .card-img {
+        height: 500px !important;
+    }
+    .banner .card-title,
+    .banner .card-text,
+    .banner .btn {
+        margin-left: 20px !important;
+    }
+    .banner .card-img-overlay{
+        background-color: rgba(0, 0, 0, 0.523);
+        border-radius: 10%;
+        color: white;
+    }
+    .footer{
+        height:min-content !important;
+    }
+}
